@@ -1,0 +1,7 @@
+name: almastflowers
+recipe: laravel
+config:
+  webroot: public
+services:
+  appserver:
+    type: php:8.1
