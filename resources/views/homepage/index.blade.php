@@ -1,12 +1,10 @@
 @extends('layouts.main')
 
 @section('title')
-    Home
+    Úvod
 @endsection
 
 @section('content')
-
-
     <!-- Shop Collection Start Here -->
     <div class="shop-collection-area gray-bg pt-no-text pb-no-text">
         <div class="container custom-area">
