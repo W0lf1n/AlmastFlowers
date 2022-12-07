@@ -5,7 +5,7 @@
             <div class="col-lg-2 col-xl-2 col-md-6 col-6 col-custom">
                 <div class="header-logo d-flex align-items-center">
                     <a href="{{route('homepage.index')}}">
-                        <img src="{{asset('assets/img/icon/icon1.png')}}" />
+                        <img src="{{asset('assets/img/icon/icon1.png')}}"  alt="logo"/>
                     </a>
                 </div>
             </div>
@@ -13,8 +13,8 @@
                 <nav class="main-nav d-none d-lg-flex">
                     <ul class="nav">
                         <li>
-                            <a href="shop.html">
-                                <span class="menu-text">e-shop</span>
+                            <a href="{{route('homepage.index')}}">
+                                <span class="menu-text">Úvod</span>
                             </a>
                         </li>
                         <li>
@@ -25,6 +25,11 @@
                         <li>
                             <a href="{{route('contact.index')}}">
                                 <span class="menu-text">kontakt</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <span class="text-muted">e-shop</span>
                             </a>
                         </li>
                     </ul>
@@ -65,7 +70,7 @@
                 <!-- mobile menu navigation start -->
                 <nav>
                     <ul class="mobile-menu">
-                        <li><a href="shop.html">e-shop</a>
+                        <li><a href="#" disabled="disabled">e-shop</a>
                         </li>
                         <li><a href="#">o nás</a></li>
                         <li><a href="#">kontaktuje nás</a></li>
@@ -79,11 +84,11 @@
                     <ul class="address-info">
                         <li>
                             <i class="fa fa-phone"></i>
-                            <a href="#">+420 123 456 789</a>
+                            <p>+420 777 353 536</p>
                         </li>
                         <li>
                             <i class="fa fa-envelope"></i>
-                            <a href="#">info@email.cz</a>
+                            <p>almastflowers@gmail.com</p>
                         </li>
                     </ul>
                     <div class="widget-social">
@@ -111,18 +116,22 @@
                     <li><a href="#">O webu</a></li>
                 </ul>
                 <p class="desc-content">
-                    Ná stránkách se neunávně pracuje. Prosíme mějte trpělivost a my Vám za oplátku přineseme funkce, které zde hledáte
+                    Ná stránkách se neunávně pracuje. Prosíme, mějte trpělivost a my Vám za oplátku přineseme funkce, které hledáte
                     🌸
                 </p>
                 <div class="top-info-wrap text-left text-black">
                     <ul class="address-info">
                         <li>
+                            <p>
                             <i class="fa fa-phone"></i>
-                            <a href="#">+420 123 456 789</a>
+                            +420 777 353 536
+                            </p>
                         </li>
                         <li>
+                            <p>
                             <i class="fa fa-envelope"></i>
-                            <a href="#">info@email.cz</a>
+                            almastflowers@gmail.com
+                            </p>
                         </li>
                     </ul>
                     <div class="widget-social">

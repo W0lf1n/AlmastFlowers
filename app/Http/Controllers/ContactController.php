@@ -10,6 +10,7 @@ use Illuminate\Http\Request;
 class ContactController extends Controller
 {
     public function index(): Application|View|Factory{
-        return \view('contact.index');
+        $req = $this->Svatek();
+        return \view('contact.index', ['day' => $req[1], 'name' => $req[0]]);
     }
 }

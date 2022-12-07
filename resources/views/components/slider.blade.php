@@ -1,18 +1,18 @@
 <div class="intro11-slider-wrap section-2">
     <div class="intro11-slider swiper-container">
         <div class="swiper-wrapper">
-            <div class="intro11-section swiper-slide slide-5 slide-bg-1 bg-position">
+            <div class="intro11-section swiper-slide slide-1 slide-bg-1 bg-position">
                 <!-- Intro Content Start -->
                 <div class="intro11-content-2 text-center">
-                    <h1 class="different-title">Welcome</h1>
-                    <h2 class="title">Vítejte v nově otevřeném květinářství</h2>
+                    <h1 class="different-title">Vítejte</h1>
+                    <h2 class="title">květiny | balónky | dekorace</h2>
                 </div>
                 <!-- Intro Content End -->
             </div>
-            <div class="intro11-section swiper-slide slide-6 slide-bg-1 bg-position">
+            <div class="intro11-section swiper-slide slide-2 slide-bg-1 bg-position">
                 <!-- Intro Content Start -->
                 <div class="intro11-content-2 text-center">
-                    <h1 class="different-title">Quality</h1>
+                    <h1 class="different-title">Kvalita</h1>
                     <h2 class="title text-white">Poskytujeme Vám jen ty nejkvalitnější květiny</h2>
                 </div>
                 <!-- Intro Content End -->

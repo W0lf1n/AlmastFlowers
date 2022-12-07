@@ -25,10 +25,6 @@
     <x-header :name="$name" :day="$day"/>
 </header>
 
-<!-- Slider/Intro Section Start -->
-    <x-slider />
-<!-- Slider/Intro Section End -->
-
     <main>
         @yield('content')
     </main>

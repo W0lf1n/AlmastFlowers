@@ -10,6 +10,7 @@ use Illuminate\Http\Request;
 class AboutUsController extends Controller
 {
     public function index(): Application|Factory|View{
-        return \view('about_us.index');
+        $req = $this->Svatek();
+        return \view('about_us.index', ['day' => $req[1], 'name' => $req[0]]);
     }
 }
