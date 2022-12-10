@@ -48,6 +48,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100;1,300;1,400;1,600;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
 body {
   line-height: 1.6;
   font-weight: 400;
@@ -443,7 +444,7 @@ mark {
 /* --- Section title ---*/
 .section-title .section-title-1 {
   color: #E72463;
-  font-size: 22px;
+  font-size: 27px;
   font-weight: 600;
   line-height: 34px;
   display: inline-block;
@@ -462,8 +463,8 @@ mark {
 
 .section-title .section-title-3 {
   font-size: 36px;
-  font-family: "Josefin Slab", serif;
-  font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
   margin-bottom: 0px;
   padding-bottom: 25px;
   text-transform: uppercase;
@@ -486,7 +487,7 @@ mark {
   .section-title .section-title-3 {
     font-size: 20px;
     line-height: 24px;
-    padding-bottom: 10px;
+    padding-bottom: 7px;
   }
 }
 

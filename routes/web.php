@@ -16,6 +16,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [HomepageController::class, 'index'])->name('homepage.index');
+Route::get('/uvod', [HomepageController::class, 'index'])->name('homepage.index');
 Route::get('/o-nas', [AboutUsController::class, 'index'])->name('about_us.index');
 Route::get('/kontakt', [ContactController::class, 'index'])->name('contact.index');
