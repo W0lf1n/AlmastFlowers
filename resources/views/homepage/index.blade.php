@@ -35,8 +35,8 @@
                 <div class="col-md-6 col-custom">
                     <div class="collection-content">
                         <div class="section-title text-left">
-                            <span class="section-title-1">řezané a hrnkové květiny</span>
-                            <h3 class="section-title-3 pb-0">květiny</h3>
+                            <span class="section-title-1">Pro každou příležitost</span>
+                            <h3 class="section-title-3">řezané a hrnkové květiny</h3>
                         </div>
                         <div class="desc-content">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
@@ -47,10 +47,8 @@
                     <!--Single Banner Area Start-->
                     <div class="single-banner hover-style">
                         <div class="banner-img">
-                            <a href="#">
-                                <img src="{{asset('assets/img/img-1.jpg')}}" style="object-fit: contain" height="450" alt="">
-                                <div class="overlay-1"></div>
-                            </a>
+                            <img src="{{asset('assets/img/homepage/img1.jpg')}}" style="object-fit: contain" height="450" alt="">
+                            <div class="overlay-1"></div>
                         </div>
                     </div>
                     <!--Single Banner Area End-->
@@ -61,10 +59,8 @@
                     <!--Single Banner Area Start-->
                     <div class="single-banner hover-style">
                         <div class="banner-img">
-                            <a href="#">
-                                <img src="{{asset('assets/img/img-2.jpg')}}" style="object-fit: contain" height="450" alt="">
-                                <div class="overlay-1"></div>
-                            </a>
+                            <img src="{{asset('assets/img/homepage/img2.jpeg')}}" style="object-fit: contain" height="450" alt="">
+                            <div class="overlay-1"></div>
                         </div>
                     </div>
                     <!--Single Banner Area End-->
@@ -72,59 +68,8 @@
                 <div class="col-md-6 col-custom order-1 order-md-2">
                     <div class="collection-content">
                         <div class="section-title text-left">
-                            <span class="section-title-1">balónky</span>
-                            <h3 class="section-title-3 pb-0">na oslavu</h3>
-                        </div>
-                        <div class="desc-content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row mb-30">
-                <div class="col-md-6 col-custom">
-                    <div class="collection-content">
-                        <div class="section-title text-left">
-                            <span class="section-title-1">Balónky pro</span>
-                            <h3 class="section-title-3 pb-0">narozeninové oslavy</h3>
-                        </div>
-                        <div class="desc-content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-custom">
-                    <!--Single Banner Area Start-->
-                    <div class="single-banner hover-style">
-                        <div class="banner-img">
-                            <a href="#">
-                                <img src="{{asset('assets/img/img-1.jpg')}}" style="object-fit: contain" height="450" alt="">
-                                <div class="overlay-1"></div>
-                            </a>
-                        </div>
-                    </div>
-                    <!--Single Banner Area End-->
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-custom order-2 order-md-1">
-                    <!--Single Banner Area Start-->
-                    <div class="single-banner hover-style">
-                        <div class="banner-img">
-                            <a href="#">
-                                <img src="{{asset('assets/img/img-2.jpg')}}" style="object-fit: contain" height="450" alt="">
-                                <div class="overlay-1"></div>
-                            </a>
-                        </div>
-                    </div>
-                    <!--Single Banner Area End-->
-                </div>
-                <div class="col-md-6 col-custom order-1 order-md-2">
-                    <div class="collection-content">
-                        <div class="section-title text-left">
-                            <span class="section-title-1">Velké kytice pro</span>
-                            <h3 class="section-title-3 pb-0">svatební akce</h3>
+                            <span class="section-title-1">Na oslavy a večírky</span>
+                            <h3 class="section-title-3">balónky</h3>
                         </div>
                         <div class="desc-content">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
@@ -136,8 +81,8 @@
                 <div class="col-md-6 col-custom">
                     <div class="collection-content">
                         <div class="section-title text-left">
-                            <span class="section-title-1">Balónky pro</span>
-                            <h3 class="section-title-3 pb-0">narozeninové oslavy</h3>
+                            <span class="section-title-1">Narozeninové oslavy</span>
+                            <h3 class="section-title-3">přání a dárky</h3>
                         </div>
                         <div class="desc-content">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
@@ -148,10 +93,8 @@
                     <!--Single Banner Area Start-->
                     <div class="single-banner hover-style">
                         <div class="banner-img">
-                            <a href="#">
-                                <img src="{{asset('assets/img/img-1.jpg')}}" style="object-fit: contain" height="450" alt="">
-                                <div class="overlay-1"></div>
-                            </a>
+                            <img src="{{asset('assets/img/homepage/img3.jpg')}}" style="object-fit: contain" height="450" alt="">
+                            <div class="overlay-1"></div>
                         </div>
                     </div>
                     <!--Single Banner Area End-->
@@ -162,10 +105,8 @@
                     <!--Single Banner Area Start-->
                     <div class="single-banner hover-style">
                         <div class="banner-img">
-                            <a href="#">
-                                <img src="{{asset('assets/img/img-2.jpg')}}" style="object-fit: contain" height="450" alt="">
-                                <div class="overlay-1"></div>
-                            </a>
+                            <img src="{{asset('assets/img/homepage/img4.jpg')}}" style="object-fit: contain" height="450" alt="">
+                            <div class="overlay-1"></div>
                         </div>
                     </div>
                     <!--Single Banner Area End-->
@@ -173,8 +114,8 @@
                 <div class="col-md-6 col-custom order-1 order-md-2">
                     <div class="collection-content">
                         <div class="section-title text-left">
-                            <span class="section-title-1">Velké kytice pro</span>
-                            <h3 class="section-title-3 pb-0">svatební akce</h3>
+                            <span class="section-title-1">Lepší bydlení</span>
+                            <h3 class="section-title-3">bytové dekorace</h3>
                         </div>
                         <div class="desc-content">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
@@ -182,27 +123,6 @@
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
