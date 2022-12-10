@@ -72,11 +72,27 @@
             <div class="mobile-navigation">
                 <!-- mobile menu navigation start -->
                 <nav>
-                    <ul class="mobile-menu">
-                        <li><a href="#" disabled="disabled">e-shop</a>
+                    <ul class="nav">
+                        <li>
+                            <a href="{{route('homepage.index')}}">
+                                <span class="menu-text">Úvod</span>
+                            </a>
                         </li>
-                        <li><a href="#">o nás</a></li>
-                        <li><a href="#">kontaktuje nás</a></li>
+                        <li>
+                            <a href="{{route('about_us.index')}}">
+                                <span class="menu-text">o nás</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{route('contact.index')}}">
+                                <span class="menu-text">kontakt</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                <span class="text-muted">e-shop</span>
+                            </a>
+                        </li>
                     </ul>
                 </nav>
                 <!-- mobile menu navigation end -->
