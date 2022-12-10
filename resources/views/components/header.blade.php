@@ -37,7 +37,10 @@
             </div>
             <div class="col-lg-2 col-md-6 col-6 col-custom">
 
-                <p class="mt-2 text-end">{{$day}} a svátek má <b style="color: #e72463">{{$name}}</b></p>
+                <p class="mt-2 ms-5 text-end">
+                    {{$day}} a svátek má
+                    <b style="color: #e72463">{{$name}}</b>
+                </p>
                 <div class="header-right-area main-nav">
                     <ul class="nav">
                         <li class="account-menu-wrap d-none d-lg-flex">

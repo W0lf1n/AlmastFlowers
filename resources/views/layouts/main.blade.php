@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="{{asset('assets/plugins/nice-select.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/plugins/swiper-bundle.min.css')}}">
     <link rel="stylesheet" href="{{'assets/css/style.css'}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8ab82cd9bd.js" crossorigin="anonymous"></script>
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="{{ config('app.name') }}">

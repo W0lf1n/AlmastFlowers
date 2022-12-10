@@ -30,7 +30,7 @@
                     <div class="col-12 col-custom">
                         <div class="section-title text-center mb-30">
                             <span class="section-title-1">kousek našeho příběhu</span>
-                            <h2 class="section-title-large">Historie</h2>
+                            <h2 class="section-title-large display-6" style="font-family: 'Roboto', sans-serif;">Proč název Almast<span style="color: #eb4a7e">Flowers</span>?</h2>
                         </div>
                     </div>
                     <!--Section Title End-->
@@ -38,8 +38,8 @@
                 <div class="row">
                     <div class="col-lg-8 ms-auto me-auto">
                         <div class="history-area-content text-center border-0">
-                            <p><strong>Nadpis | Citát | Zásada</strong></p>
-                            <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus. Phasellus eu rhoncus dolor, vitae scelerisque sapien</p>
+                            <p>Slovo <b>Almast</b> není jen tak nějaký výmysl! Pochází z Arménštiny, a vyjma toho, že je to název vzácného kamene, je to také křestní jméno babičky, která pracovala s květinami celý svůj život a stala se tak inspirací pro naše pokračování v práci s květinami. My jsme se ovšem rozhodli koncept klasického květinářství lehce oživit…
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
         </div>
     </div>
     <!-- Feature History Area End Here -->
-    <!-- Team Member Area Start Here -->
+    <!-- Team Member Area Start Here
     <div class="team-member-wrapper mt-text-3">
         <div class="container custom-area">
             <div class="row">
@@ -79,7 +79,7 @@
                                 <img class="img-fluid" src="{{asset('assets/img/avatar/avatar2.png')}}" alt="">
                             </div>
                             <div class="team-info text-center">
-                                <h5 class="name">Jméne Přijmení</h5>
+                                <h5 class="name">Jméno Přijmení</h5>
                                 <div class="position">Pozice</div>
                             </div>
                         </div>
@@ -101,7 +101,7 @@
             </div>
         </div>
     </div>
-    <!-- Team Member Area End Here -->
+     Team Member Area End Here -->
 
 
 @endsection
