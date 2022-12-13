@@ -1665,7 +1665,7 @@ mark {
 /*----------------------------------------*/
 /*-- Main Header Area --*/
 .main-header-area .header-logo img {
-  width: 125px;
+  width: 130px;
 }
 
 /* ---Sticky Header--- */
@@ -1682,11 +1682,12 @@ mark {
 }
 
 .header-sticky.sticky {
+    /*
   -webkit-animation: 800ms ease-in-out 0s normal none 1 running slideInDown;
-          animation: 800ms ease-in-out 0s normal none 1 running slideInDown;
+          animation: 800ms ease-in-out 0s normal none 1 running slideInDown;*/
   left: 0;
   position: fixed;
-  background-color: #ffffff;
+  background-color: rgb(243, 216, 225);
   -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
   right: 0;

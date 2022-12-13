@@ -13,7 +13,7 @@
                 <!-- Intro Content Start -->
                 <div class="intro11-content-2 text-center">
                     <h1 class="different-title">Kontakt</h1>
-                    <h2 class="title">Můžete nám napsat, nebo se kdykoliv stavit na prodejně</h2>
+                    <h2 class="title">Můžete nám napsat nebo se kdykoliv stavit na prodejně</h2>
                 </div>
                 <!-- Intro Content End -->
             </div>

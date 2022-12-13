@@ -32,39 +32,76 @@
             </div>
             <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-custom">
                 <div class="single-footer-widget">
-                    <h2 class="widget-title">Kontakt</h2>
-                    <h4 class="text-white">Edgar Poghosjan</h4>
+                    <h2 class="widget-title">Prodejna</h2>
                     <ul class="widget-list">
+                        <li>
+                            <address class="mb-0">
+                                <i class="fa fa-home mb-2"></i>
+                                Bryksova 781/57
+                                <br />
+                                Praha 14-Černý Most, 198 00
+                            </address>
+                        </li>
                         <li><i class="fa fa-phone"></i> +420 777 353 536</li>
                         <li><i class="fa fa-envelope"></i> almastflowers@gmail.com</li>
-                        <li>IČO: 10967788</li>
                     </ul>
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-custom">
                 <div class="single-footer-widget">
-                    <h2 class="widget-title">Otevírací doba</h2>
-                    <ul class="widget-list">
-                        <li><b>Pondělí</b> 9:00 - 19:00</li>
-                        <li><b>Úterý</b> 9:00 - 19:00</li>
-                        <li><b>Středa</b> 9:00 - 19:00</li>
-                        <li><b>Čtvrtek</b> 9:00 - 19:00</li>
-                        <li><b>Pátek</b> 9:00 - 19:00</li>
-                        <li><b>Sobota</b> 9:00 - 13:00</li>
-                        <li><b>Neděle</b> Zavřeno</li>
-                    </ul>
+                    <h2 class="widget-title ms-3">Otevírací doba</h2>
+
+                    <table class="table table-borderless m-0 p-0 text-light">
+                        <tbody>
+                            <tr>
+                                <th class="text-center"><b>Pondělí</b></th>
+                                <th class="fw-normal">9:00 - 19:00</th>
+                            </tr>
+                            <tr>
+                                <th class="text-center"><b>Úterý</b></th>
+                                <th class="fw-normal">9:00 - 19:00</th>
+                            </tr>
+                            <tr>
+                                <th class="text-center"><b>Středa</b></th>
+                                <th class="fw-normal">9:00 - 19:00</th>
+                            </tr>
+                            <tr>
+                                <th class="text-center"><b>Čtvrtek</b></th>
+                                <th class="fw-normal">9:00 - 19:00</th>
+                            </tr>
+                            <tr>
+                                <th class="text-center"><b>Pátek</b></th>
+                                <th class="fw-normal">9:00 - 19:00</th>
+                            </tr>
+                            <tr>
+                                <th class="text-center"><b>Sobota</b></th>
+                                <th class="fw-normal">9:00 - 13:00</th>
+                            </tr>
+                            <tr>
+                                <th class="text-center"><b>Neděle</b></th>
+                                <th class="fw-normal">Zavřeno</th>
+                            </tr>
+                        </tbody>
+                    </table>
+
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-custom">
                 <div class="single-footer-widget">
                     <h2 class="widget-title">Sídlo</h2>
-                    <div class="widget-body">
-                        <address>
-                            Bryksova 781/57
-                            <br />
-                            Praha 14-Černý Most, 198 00
-                        </address>
-                    </div>
+                    <ul class="widget-list">
+                        <li>
+                            <address class="mb-0">
+                                <i class="fa fa-home mb-2"></i>
+                                Mansfeldova 789/1
+                                <br />
+                                Praha 14-Černý Most, 198 00
+                            </address>
+                        </li>
+                        <li><i class="fa fa-phone"></i> +420 777 930 077</li>
+                        <li><i class="fa fa-envelope"></i> edgar.poghosyan@seznam.cz</li>
+                        <li><i class="fa-regular fa-address-card"></i> IČO: 10967788</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -75,7 +112,7 @@
         <div class="row">
             <div class="col-12 text-center col-custom">
                 <div class="copyright-content">
-                    <p>Copyright © <span id="year"></span> <a href="http://www.almastflowers.cz/" title="http://www.almastflowers.cz/">AlmastFlowers</a></p>
+                    <p>Copyright © <span id="year"></span> <a href="https://www.almastflowers.cz/" title="https://www.almastflowers.cz/">AlmastFlowers</a></p>
                 </div>
             </div>
         </div>

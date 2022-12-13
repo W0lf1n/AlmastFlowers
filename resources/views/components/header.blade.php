@@ -1,17 +1,17 @@
 <!-- Main Header Area Start -->
-<div class="main-header header-transparent header-sticky">
+<div class="main-header header-transparent header-sticky" style="max-height: 135px">
     <div class="container-fluid">
         <div class="row align-items-center">
             <div class="col-lg-2 col-xl-2 col-md-6 col-6 col-custom">
                 <div class="header-logo d-flex align-items-center">
                     <a href="{{route('homepage.index')}}">
-                        <img src="{{asset('assets/img/icon/icon1.png')}}"  alt="logo"/>
+                        <img src="{{asset('assets/img/icon/icon1.png')}}" class="mb-5" alt="logo"/>
                     </a>
                 </div>
             </div>
             <div class="col-lg-8 d-none d-lg-flex justify-content-center col-custom">
                 <nav class="main-nav d-none d-lg-flex">
-                    <ul class="nav">
+                    <ul class="nav mb-5">
                         <li>
                             <a href="{{route('homepage.index')}}">
                                 <span class="menu-text">Úvod</span>
@@ -36,13 +36,14 @@
                 </nav>
             </div>
             <div class="col-lg-2 col-md-6 col-6 col-custom">
-
-                <p class="mt-2 ms-5 text-end">
-                    {{$day}} a svátek má
-                    <b style="color: #e72463">{{$name}}</b>
-                </p>
-                <div class="header-right-area main-nav">
-                    <ul class="nav">
+                <div class="header-right-area main-nav mb-5">
+                    <p class="text-end">
+                        {{$day}}
+                        <br />
+                        Svátek má
+                        <b style="color: #e72463">{{$name}}</b>
+                    </p>
+                    <ul class="nav mt-3">
                         <li class="account-menu-wrap d-none d-lg-flex">
                             <a href="#" class="off-canvas-menu-btn">
                                 <i class="fa fa-bars"></i>
