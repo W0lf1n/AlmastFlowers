@@ -49,6 +49,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100;1,300;1,400;1,600;1,700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+
 body {
   line-height: 1.6;
   font-weight: 400;
@@ -1664,11 +1665,20 @@ mark {
 /*    04 - Layout - Header
 /*----------------------------------------*/
 /*-- Main Header Area --*/
+
 .main-header-area .header-logo img {
   width: 130px;
 }
+.main-header-area{
+    background-color: rgb(243, 216, 225);
+}
 
-/* ---Sticky Header--- */
+/* ---Sticky Header---
+
+.main-header{
+    background-color: rgba(243, 216, 225, 0.64);
+}*/
+
 .header-sticky.header-transparent {
   position: fixed;
   width: 100%;
@@ -1682,20 +1692,23 @@ mark {
 }
 
 .header-sticky.sticky {
-    /*
   -webkit-animation: 800ms ease-in-out 0s normal none 1 running slideInDown;
-          animation: 800ms ease-in-out 0s normal none 1 running slideInDown;*/
+          animation: 800ms ease-in-out 0s normal none 1 running slideInDown;
   left: 0;
   position: fixed;
-  background-color: rgb(243, 216, 225);
-  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+    background-color: rgb(243, 216, 225);
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
   right: 0;
-  top: 0;
-  -webkit-transition: .3s;
-  -o-transition: .3s;
-  transition: .3s;
-  z-index: 99;
+    top: 0;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    z-index: 99;
+}
+
+.fill_nav {
+    height: 135px;
 }
 
 /* ---Main Menu--- */
@@ -1748,7 +1761,7 @@ mark {
 
 /*--- Dropdwon ---*/
 .dropdown-submenu {
-  background: #ffffff;
+    background-color: rgb(243, 216, 225);
   padding: 20px 0 24px;
   width: 230px;
   -webkit-box-shadow: 0 0px 3px rgba(0, 0, 0, 0.3);

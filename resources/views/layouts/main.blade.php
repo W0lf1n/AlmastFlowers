@@ -21,7 +21,7 @@
     <meta name="apple-mobile-web-app-title" content="{{ config('app.name') }}">
 </head>
 <body>
-
+<div id="nav-filler" class=""></div>
 <header class="main-header-area">
     <x-header :name="$name" :day="$day"/>
 </header>

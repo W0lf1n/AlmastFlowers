@@ -4,12 +4,19 @@
 	   Sticky Menu Activation
 	---------------------------------*/
 	$(window).on('scroll', function () {
-		if ($(this).scrollTop() > 300) {
+
+        if ($(this).scrollTop() > 365) {
 			$('.header-sticky').addClass('sticky');
+
+            if ($(window).width() < 1250) {
+                $('#nav-filler').addClass('fill_nav');
+            }
 		} else {
 			$('.header-sticky').removeClass('sticky');
+            $('#nav-filler').removeClass('fill_nav');
 		}
 	});
+
 	/*----------------------------------------
 		Off Canvas
 	-------------------------------------------*/
@@ -257,7 +264,7 @@
 			clickable: true,
 		},
 		//autoplay: {},
-		
+
 
 	});
 	// Single product with Thumbnail
@@ -309,31 +316,31 @@
 	/*  Shop Grid Activation
 	/*----------------------------------------*/
 	$('.shop_toolbar_btn > button').on('click', function (e) {
-	
+
 		e.preventDefault();
-		
+
 		$('.shop_toolbar_btn > button').removeClass('active');
 		$(this).addClass('active');
-		
+
 		var parentsDiv = $('.shop_wrapper');
 		var viewMode = $(this).data('role');
-		
-		
+
+
 		parentsDiv.removeClass('grid_3 grid_4 grid_5 grid_list').addClass(viewMode);
 
 		if(viewMode == 'grid_3'){
 			parentsDiv.children().addClass('col-lg-4 col-md-6 col-sm-6').removeClass('col-lg-3 col-cust-5 col-12');
-			
+
 		}
 
 		if(viewMode == 'grid_4'){
 			parentsDiv.children().addClass('col-lg-3 col-md-6 col-sm-6').removeClass('col-lg-4 col-cust-5 col-12');
 		}
-		
+
 		if(viewMode == 'grid_list'){
 			parentsDiv.children().addClass('col-12').removeClass('col-lg-3 col-lg-4 col-md-6 col-sm-6 col-cust-5');
 		}
-			
+
 	});
 	/*--------------------------------
 	Price Slider Active
@@ -355,7 +362,7 @@
 	$(function () {
 		$('[data-toggle="tooltip"]').tooltip();
 	});
-	
+
 	/*----------------------------------------*/
 	/*  Countdown
 	/*----------------------------------------*/
@@ -480,6 +487,6 @@
 		$('#preloader').delay(350).fadeOut('slow')
 		$('body').delay(350).css({'overflow':'visible'});
 	});
-    
+
 })(jQuery);
 
