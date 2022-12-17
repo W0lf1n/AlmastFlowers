@@ -15,7 +15,6 @@
 
     <!-- Shop Collection Start Here -->
     <div class="shop-collection-area gray-bg pt-no-text pb-no-text">
-
             <div class="container-fluid mb-5">
                 <div class="row">
                     <div class="col-lg-8 ms-auto me-auto text-center" style="font-size: large">
@@ -39,7 +38,7 @@
                             <h3 class="section-title-3">řezané květiny</h3>
                         </div>
                         <div class="desc-content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            <p>Najdete u nás široký výběr čerstvých květin, a to sezóních i mimosezóních! Uvážeme Vám jakoukoliv kytici dle vašich přání a požadavků.</p>
                         </div>
                     </div>
                 </div>
@@ -59,7 +58,7 @@
                     <!--Single Banner Area Start-->
                     <div class="single-banner hover-style">
                         <div class="banner-img">
-                            <img src="{{asset('assets/img/homepage/img2.jpeg')}}" style="object-fit: contain" height="450" alt="">
+                            <img src="{{asset('assets/img/homepage/img2.heic')}}" style="object-fit: contain" height="450" alt="">
                             <div class="overlay-1"></div>
                         </div>
                     </div>
@@ -72,7 +71,7 @@
                             <h3 class="section-title-3">balónky</h3>
                         </div>
                         <div class="desc-content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            <p>Menší, větší či opravdu velký balónkový puget nebo girlanda na narozeniny, výročí či narození miminka? Žádný problém!</p>
                         </div>
                     </div>
                 </div>
@@ -85,7 +84,7 @@
                             <h3 class="section-title-3">hrnkové květiny</h3>
                         </div>
                         <div class="desc-content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            <p>Máme velkou škálu i pokojivých rostlin. Od malinkých kaktusů až po velké exotické palmy.</p>
                         </div>
                     </div>
                 </div>
@@ -93,7 +92,7 @@
                     <!--Single Banner Area Start-->
                     <div class="single-banner hover-style">
                         <div class="banner-img">
-                            <img src="{{asset('assets/img/homepage/img1.jpg')}}" style="object-fit: contain" height="450" alt="">
+                            <img src="{{asset('assets/img/homepage/img6.heic')}}" style="object-fit: contain" height="450" alt="">
                             <div class="overlay-1"></div>
                         </div>
                     </div>
@@ -105,7 +104,7 @@
                     <!--Single Banner Area Start-->
                     <div class="single-banner hover-style">
                         <div class="banner-img">
-                            <img src="{{asset('assets/img/homepage/img4.jpg')}}" style="object-fit: contain" height="450" alt="">
+                            <img src="{{asset('assets/img/homepage/img5.jpeg')}}" style="object-fit: contain" height="450" alt="">
                             <div class="overlay-1"></div>
                         </div>
                     </div>
@@ -115,10 +114,10 @@
                     <div class="collection-content">
                         <div class="section-title text-left">
                             <span class="section-title-1">Lepší bydlení</span>
-                            <h3 class="section-title-3">bytové dekorace</h3>
+                            <h3 class="section-title-3">dárky & dekorace</h3>
                         </div>
                         <div class="desc-content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            <p>Andílci, nespočet svíček nebo dárkové sady… a mnoho dalšího co udělá radost vám či vašim blízkým.</p>
                         </div>
                     </div>
                 </div>
@@ -127,11 +126,11 @@
                 <div class="col-md-6 col-custom">
                     <div class="collection-content">
                         <div class="section-title text-left">
-                            <span class="section-title-1">Narozeninové oslavy</span>
-                            <h3 class="section-title-3">přání a dárky</h3>
+                            <span class="section-title-1">Všechny druhy oslav</span>
+                            <h3 class="section-title-3">vína</h3>
                         </div>
                         <div class="desc-content">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            <p>V nabídce máme také převážně Italská vína a prosseca, která běžně neseženete. Od levnějších až po opravdu kvalitní drahé lahve.</p>
                         </div>
                     </div>
                 </div>
@@ -139,7 +138,7 @@
                     <!--Single Banner Area Start-->
                     <div class="single-banner hover-style">
                         <div class="banner-img">
-                            <img src="{{asset('assets/img/homepage/img3.jpg')}}" style="object-fit: contain" height="450" alt="">
+                            <img src="{{asset('assets/img/homepage/img7.jpeg')}}" style="object-fit: contain" height="450" alt="">
                             <div class="overlay-1"></div>
                         </div>
                     </div>

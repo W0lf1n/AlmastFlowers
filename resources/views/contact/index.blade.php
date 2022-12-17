@@ -60,10 +60,19 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 mb-5">
+                    <div class="iframe-responsive">
+                        <iframe class="mb-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2558.8447706825036!2d14.575575615886878!3d50.107912419867645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470bed5b842aee21%3A0x26586d6805b16263!2sBryksova%20781%2C%20198%2000%20Praha%2014-%C4%8Cern%C3%BD%20Most!5e0!3m2!1sen!2scz!4v1670444838356!5m2!1sen!2scz" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 mb-5">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque finibus laoreet. Integer et magna mi. Nulla quam metus, ultrices ac laoreet vel, scelerisque et tellus. Ut nisl sem, gravida ut mattis sit amet, pretium quis mauris. Quisque sollicitudin leo ut felis rutrum ornare. Quisque ultrices iaculis ullamcorper. Integer ultrices justo ut mi tempus, eget molestie augue ultrices. Nulla vitae tempor enim. Duis placerat porta lectus sit amet tempor.
 
-            <div class="iframe-responsive">
-                <iframe class="mb-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2558.8447706825036!2d14.575575615886878!3d50.107912419867645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470bed5b842aee21%3A0x26586d6805b16263!2sBryksova%20781%2C%20198%2000%20Praha%2014-%C4%8Cern%C3%BD%20Most!5e0!3m2!1sen!2scz!4v1670444838356!5m2!1sen!2scz" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        Nullam scelerisque lacus enim, vel consequat metus condimentum nec. Ut scelerisque mauris nec massa pharetra, eu consequat diam aliquet. Curabitur nec quam orci. Duis feugiat dignissim accumsan. Suspendisse laoreet facilisis dolor et malesuada. Sed vulputate condimentum odio eget blandit. Praesent tincidunt elit a viverra efficitur. Vivamus tristique vehicula turpis non imperdiet. Donec nisl sem, pharetra ac ipsum in, auctor porttitor mauris. Mauris sapien lectus, hendrerit eu sapien eget, fringilla placerat nisi. Donec ligula nisi, tristique sit amet tincidunt a, ultrices a dolor. Mauris quis nulla interdum, commodo neque ac, congue justo. Fusce vel pulvinar eros.</p>
+                </div>
             </div>
+
 
         </div>
     </div>

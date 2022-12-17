@@ -49,36 +49,36 @@
             </div>
             <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-custom">
                 <div class="single-footer-widget">
-                    <h2 class="widget-title ms-3">Otevírací doba</h2>
+                    <h2 class="widget-title ms-1">Otevírací doba</h2>
 
                     <table class="table table-borderless m-0 p-0 text-light">
                         <tbody>
                             <tr>
-                                <th class="text-center"><b>Pondělí</b></th>
+                                <th><b>Pondělí</b></th>
                                 <th class="fw-normal">9:00 - 19:00</th>
                             </tr>
                             <tr>
-                                <th class="text-center"><b>Úterý</b></th>
+                                <th><b>Úterý</b></th>
                                 <th class="fw-normal">9:00 - 19:00</th>
                             </tr>
                             <tr>
-                                <th class="text-center"><b>Středa</b></th>
+                                <th><b>Středa</b></th>
                                 <th class="fw-normal">9:00 - 19:00</th>
                             </tr>
                             <tr>
-                                <th class="text-center"><b>Čtvrtek</b></th>
+                                <th><b>Čtvrtek</b></th>
                                 <th class="fw-normal">9:00 - 19:00</th>
                             </tr>
                             <tr>
-                                <th class="text-center"><b>Pátek</b></th>
+                                <th><b>Pátek</b></th>
                                 <th class="fw-normal">9:00 - 19:00</th>
                             </tr>
                             <tr>
-                                <th class="text-center"><b>Sobota</b></th>
+                                <th><b>Sobota</b></th>
                                 <th class="fw-normal">9:00 - 13:00</th>
                             </tr>
                             <tr>
-                                <th class="text-center"><b>Neděle</b></th>
+                                <th><b>Neděle</b></th>
                                 <th class="fw-normal">Zavřeno</th>
                             </tr>
                         </tbody>

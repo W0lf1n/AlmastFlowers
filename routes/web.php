@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AboutUsController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\HomepageController;
 use Illuminate\Support\Facades\Route;
 
@@ -19,3 +20,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/uvod', [HomepageController::class, 'index'])->name('homepage.index');
 Route::get('/o-nas', [AboutUsController::class, 'index'])->name('about_us.index');
 Route::get('/kontakt', [ContactController::class, 'index'])->name('contact.index');
+Route::get('/galerie', [GalleryController::class, 'index'])->name('gallery.index');

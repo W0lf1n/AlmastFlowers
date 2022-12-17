@@ -23,6 +23,11 @@
                             </a>
                         </li>
                         <li>
+                            <a href="{{route('gallery.index')}}">
+                                <span class="menu-text">galerie</span>
+                            </a>
+                        </li>
+                        <li>
                             <a href="{{route('contact.index')}}">
                                 <span class="menu-text">kontakt</span>
                             </a>
