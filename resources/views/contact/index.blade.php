@@ -67,9 +67,17 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 mb-5">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc scelerisque finibus laoreet. Integer et magna mi. Nulla quam metus, ultrices ac laoreet vel, scelerisque et tellus. Ut nisl sem, gravida ut mattis sit amet, pretium quis mauris. Quisque sollicitudin leo ut felis rutrum ornare. Quisque ultrices iaculis ullamcorper. Integer ultrices justo ut mi tempus, eget molestie augue ultrices. Nulla vitae tempor enim. Duis placerat porta lectus sit amet tempor.
-
-                        Nullam scelerisque lacus enim, vel consequat metus condimentum nec. Ut scelerisque mauris nec massa pharetra, eu consequat diam aliquet. Curabitur nec quam orci. Duis feugiat dignissim accumsan. Suspendisse laoreet facilisis dolor et malesuada. Sed vulputate condimentum odio eget blandit. Praesent tincidunt elit a viverra efficitur. Vivamus tristique vehicula turpis non imperdiet. Donec nisl sem, pharetra ac ipsum in, auctor porttitor mauris. Mauris sapien lectus, hendrerit eu sapien eget, fringilla placerat nisi. Donec ligula nisi, tristique sit amet tincidunt a, ultrices a dolor. Mauris quis nulla interdum, commodo neque ac, congue justo. Fusce vel pulvinar eros.</p>
+                    <p class="p1" style="font-size: large">
+                        Květinářství <a class="text-decoration-underline" href="{{route('homepage.index')}}">Almast Flowers</a> se nachází na krásně viditelném místě, na rohu budovy, kde se kříží ulice Bryksova a Mansfeldova.
+                        Při cestě z metra půjdete stále rovně, ani ne po 100 metrech nás uvidíte a budete jen pár kroků od našeho obchodu.
+                        V případě cesty z obchodního centra stačí jít směrem zpět k metru a po cca 200 metrech po levé straně se nachází naše prodejna.
+                        <br />
+                        <br />
+                        Adresa obchodu je
+                        <a class="text-decoration-underline" href="https://www.google.cz/maps/place/Bryksova+781,+198+00+Praha+14-%C4%8Cern%C3%BD+Most/@50.1079124,14.5755756,17z/data=!3m1!4b1!4m5!3m4!1s0x470bed5b842aee21:0x26586d6805b16263!8m2!3d50.107909!4d14.5777643" target="_blank">Bryksova 781/57, Černý Most, Praha 9, 198 00</a>
+                        Autobusem a metrem je dostupnost bez problému, zastávka Černý Most.
+                        Při cestě autem zaprkujete v blízkém okolí bez problému. Po celé ulici Bryksova jsou bezplatná parkovací místa.
+                    </p>
                 </div>
             </div>
 

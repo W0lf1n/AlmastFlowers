@@ -186,19 +186,6 @@
                     <aside class="sidebar_widget widget-mt">
                         <div class="widget_inner">
                             <div class="widget-list widget-mb-1">
-                                <h3 class="widget-title">Search</h3>
-                                <div class="search-box">
-                                    <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="Search Our Store" aria-label="Search Our Store">
-                                        <div class="input-group-append">
-                                            <button class="btn btn-outline-secondary" type="button">
-                                                <i class="fa fa-search"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="widget-list widget-mb-1">
                                 <h3 class="widget-title">Categories</h3>
                                 <div class="sidebar-body">
                                     <ul class="sidebar-list">
@@ -207,88 +194,6 @@
                                         <li><a href="#">Featured (4)</a></li>
                                         <li><a href="#">New Products (6)</a></li>
                                     </ul>
-                                </div>
-                            </div>
-                            <div class="widget-list widget-mb-3">
-                                <h3 class="widget-title">Tags</h3>
-                                <div class="sidebar-body">
-                                    <ul class="tags">
-                                        <li><a href="#">Rose</a></li>
-                                        <li><a href="#">Sunflower</a></li>
-                                        <li><a href="#">Tulip</a></li>
-                                        <li><a href="#">Lily</a></li>
-                                        <li><a href="#">Smart</a></li>
-                                        <li><a href="#">Modern</a></li>
-                                        <li><a href="#">Gift</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="widget-list mb-0">
-                                <h3 class="widget-title">Recent Products</h3>
-                                <div class="sidebar-body">
-                                    <div class="sidebar-product align-items-center">
-                                        <a href="product-details.html" class="image">
-                                            <img src="assets/images/cart/1.jpg" alt="product">
-                                        </a>
-                                        <div class="product-content">
-                                            <div class="product-title">
-                                                <h4 class="title-2"> <a href="product-details.html">Glory of the Snow</a></h4>
-                                            </div>
-                                            <div class="price-box">
-                                                <span class="regular-price ">$80.00</span>
-                                                <span class="old-price"><del>$90.00</del></span>
-                                            </div>
-                                            <div class="product-rating">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-o"></i>
-                                                <i class="fa fa-star-o"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="sidebar-product align-items-center">
-                                        <a href="product-details.html" class="image">
-                                            <img src="assets/images/cart/2.jpg" alt="product">
-                                        </a>
-                                        <div class="product-content">
-                                            <div class="product-title">
-                                                <h4 class="title-2"> <a href="product-details.html">Pearly Everlasting</a></h4>
-                                            </div>
-                                            <div class="price-box">
-                                                <span class="regular-price ">$50.00</span>
-                                                <span class="old-price"><del>$60.00</del></span>
-                                            </div>
-                                            <div class="product-rating">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                                <i class="fa fa-star-o"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="sidebar-product align-items-center">
-                                        <a href="product-details.html" class="image">
-                                            <img src="assets/images/cart/3.jpg" alt="product">
-                                        </a>
-                                        <div class="product-content">
-                                            <div class="product-title">
-                                                <h4 class="title-2"> <a href="product-details.html">Jack in the Pulpit</a></h4>
-                                            </div>
-                                            <div class="price-box">
-                                                <span class="regular-price ">$40.00</span>
-                                                <span class="old-price"><del>$50.00</del></span>
-                                            </div>
-                                            <div class="product-rating">
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                                <i class="fa fa-star-half-o"></i>
-                                                <i class="fa fa-star-o"></i>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                         </div>

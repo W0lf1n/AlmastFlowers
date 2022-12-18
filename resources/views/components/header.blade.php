@@ -86,6 +86,9 @@
                             <a href="{{route('about_us.index')}}">O nás</a>
                         </li>
                         <li>
+                            <a href="{{route('gallery.index')}}">Galerie</a>
+                        </li>
+                        <li>
                             <a href="{{route('contact.index')}}">Kontakt</a>
                         </li>
                         <li>

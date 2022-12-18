@@ -127,7 +127,7 @@
                     <div class="collection-content">
                         <div class="section-title text-left">
                             <span class="section-title-1">Všechny druhy oslav</span>
-                            <h3 class="section-title-3">vína</h3>
+                            <h3 class="section-title-3">vína & prosseca</h3>
                         </div>
                         <div class="desc-content">
                             <p>V nabídce máme také převážně Italská vína a prosseca, která běžně neseženete. Od levnějších až po opravdu kvalitní drahé lahve.</p>
