@@ -1361,7 +1361,10 @@ mark {
 }
 
 .pagination ul li.next {
-  width: 40px;
+  width: 120px;
+}
+.pagination ul li.previous {
+    width: 120px;
 }
 
 /* ---Google Maps--- */
@@ -2687,7 +2690,7 @@ mark {
 /*    05 - Layout - Footer
 /*----------------------------------------*/
 .footer-area .footer-widget-area {
-  padding: 100px 0;
+  padding: 43px 0;
   background-color: #1b1b1b;
 }
 
@@ -3459,9 +3462,29 @@ mark {
 /*    Blog Scss
 /*----------------------------------------*/
 
-.d-block img{
-    height: 560px;
-    cursor: default;
+@media (min-width: 1201px) {
+    .d-block img{
+        height: 715px;
+        cursor: default;
+    }
+}
+@media (max-width: 1200px) {
+    .d-block img{
+        height: 565px;
+        cursor: default;
+    }
+}
+@media (max-width: 1024px) {
+    .d-block img{
+        height: 525px;
+        cursor: default;
+    }
+}
+@media (max-width: 768px) {
+    .d-block img{
+        height: 640px;
+        cursor: default;
+    }
 }
 
 .single-blog {
