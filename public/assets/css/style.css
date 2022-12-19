@@ -3458,6 +3458,12 @@ mark {
 /*----------------------------------------*/
 /*    Blog Scss
 /*----------------------------------------*/
+
+.d-block img{
+    height: 560px;
+    cursor: default;
+}
+
 .single-blog {
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;

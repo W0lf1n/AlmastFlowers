@@ -32,20 +32,9 @@
                             <div class="blog-lst">
                                 <div class="single-blog">
                                     <div class="blog-image">
-                                        <a class="d-block" href="blog-details-fullwidth.html">
-                                            <img src="assets/images/blog/blog1.jpg" alt="Blog Image" class="w-100">
+                                        <a class="d-block">
+                                            <img src="{{asset('assets/img/gallery/img-1.jpg')}}" alt="Blog Image" class="w-100">
                                         </a>
-                                    </div>
-                                    <div class="blog-content">
-                                        <div class="blog-text">
-                                            <h4><a href="blog-details-fullwidth.html">Standard blog post title</a></h4>
-                                            <div class="blog-post-info">
-                                                <span><a href="#">By admin</a></span>
-                                                <span>December 18, 2020</span>
-                                            </div>
-                                            <p>Lorem ipsu dolor sit amet cons elits cumque adipisicing, sed do incid eiusmod tempor ut labore et dolore eveniet .</p>
-                                            <a href="blog-details-fullwidth.html" class="readmore">Read More <i class="fa fa-long-arrow-right"></i></a>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -54,20 +43,9 @@
                             <div class="blog-lst">
                                 <div class="single-blog">
                                     <div class="blog-image">
-                                        <a class="d-block" href="blog-details-fullwidth.html">
-                                            <img src="assets/images/blog/blog3.jpg" alt="Blog Image" class="w-100">
+                                        <a class="d-block">
+                                            <img src="{{asset('assets/img/gallery/img-2.jpg')}}" alt="Blog Image" class="w-100">
                                         </a>
-                                    </div>
-                                    <div class="blog-content">
-                                        <div class="blog-text">
-                                            <h4><a href="blog-details-fullwidth.html">Standard blog post title</a></h4>
-                                            <div class="blog-post-info">
-                                                <span><a href="#">By admin</a></span>
-                                                <span>December 18, 2020</span>
-                                            </div>
-                                            <p>Lorem ipsu dolor sit amet cons elits cumque adipisicing, sed do incid eiusmod tempor ut labore et dolore eveniet .</p>
-                                            <a href="blog-details-fullwidth.html" class="readmore">Read More <i class="fa fa-long-arrow-right"></i></a>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -76,20 +54,9 @@
                             <div class="blog-lst">
                                 <div class="single-blog">
                                     <div class="blog-image">
-                                        <a class="d-block" href="blog-details-fullwidth.html">
-                                            <img src="assets/images/blog/blog2.jpg" alt="Blog Image" class="w-100">
+                                        <a class="d-block">
+                                            <img src="{{asset('assets/img/gallery/img-3.jpg')}}" alt="Blog Image" class="w-100">
                                         </a>
-                                    </div>
-                                    <div class="blog-content">
-                                        <div class="blog-text">
-                                            <h4><a href="blog-details-fullwidth.html">Standard blog post title</a></h4>
-                                            <div class="blog-post-info">
-                                                <span><a href="#">By admin</a></span>
-                                                <span>December 18, 2020</span>
-                                            </div>
-                                            <p>Lorem ipsu dolor sit amet cons elits cumque adipisicing, sed do incid eiusmod tempor ut labore et dolore eveniet .</p>
-                                            <a href="blog-details-fullwidth.html" class="readmore">Read More <i class="fa fa-long-arrow-right"></i></a>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -98,20 +65,9 @@
                             <div class="blog-lst">
                                 <div class="single-blog">
                                     <div class="blog-image">
-                                        <a class="d-block" href="blog-details-fullwidth.html">
-                                            <img src="assets/images/blog/blog3.jpg" alt="Blog Image" class="w-100">
+                                        <a class="d-block">
+                                            <img src="{{asset('assets/img/gallery/img-4.jpg')}}" alt="Blog Image" class="w-100">
                                         </a>
-                                    </div>
-                                    <div class="blog-content">
-                                        <div class="blog-text">
-                                            <h4><a href="blog-details-fullwidth.html">Standard blog post title</a></h4>
-                                            <div class="blog-post-info">
-                                                <span><a href="#">By admin</a></span>
-                                                <span>December 18, 2020</span>
-                                            </div>
-                                            <p>Lorem ipsu dolor sit amet cons elits cumque adipisicing, sed do incid eiusmod tempor ut labore et dolore eveniet .</p>
-                                            <a href="blog-details-fullwidth.html" class="readmore">Read More <i class="fa fa-long-arrow-right"></i></a>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -120,20 +76,9 @@
                             <div class="blog-lst">
                                 <div class="single-blog">
                                     <div class="blog-image">
-                                        <a class="d-block" href="blog-details-fullwidth.html">
-                                            <img src="assets/images/blog/blog1.jpg" alt="Blog Image" class="w-100">
+                                        <a class="d-block">
+                                            <img src="{{asset('assets/img/gallery/img-5.jpg')}}" alt="Blog Image" class="w-100">
                                         </a>
-                                    </div>
-                                    <div class="blog-content">
-                                        <div class="blog-text">
-                                            <h4><a href="blog-details-fullwidth.html">Standard blog post title</a></h4>
-                                            <div class="blog-post-info">
-                                                <span><a href="#">By admin</a></span>
-                                                <span>December 18, 2020</span>
-                                            </div>
-                                            <p>Lorem ipsu dolor sit amet cons elits cumque adipisicing, sed do incid eiusmod tempor ut labore et dolore eveniet .</p>
-                                            <a href="blog-details-fullwidth.html" class="readmore">Read More <i class="fa fa-long-arrow-right"></i></a>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -142,20 +87,9 @@
                             <div class="blog-lst">
                                 <div class="single-blog">
                                     <div class="blog-image">
-                                        <a class="d-block" href="blog-details-fullwidth.html">
-                                            <img src="assets/images/blog/blog2.jpg" alt="Blog Image" class="w-100">
+                                        <a class="d-block">
+                                            <img src="{{asset('assets/img/gallery/img-6.jpg')}}" alt="Blog Image" class="w-100">
                                         </a>
-                                    </div>
-                                    <div class="blog-content">
-                                        <div class="blog-text">
-                                            <h4><a href="blog-details-fullwidth.html">Standard blog post title</a></h4>
-                                            <div class="blog-post-info">
-                                                <span><a href="#">By admin</a></span>
-                                                <span>December 18, 2020</span>
-                                            </div>
-                                            <p>Lorem ipsu dolor sit amet cons elits cumque adipisicing, sed do incid eiusmod tempor ut labore et dolore eveniet .</p>
-                                            <a href="blog-details-fullwidth.html" class="readmore">Read More <i class="fa fa-long-arrow-right"></i></a>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -163,7 +97,7 @@
                     </div>
                     <!-- Shop Wrapper End -->
                     <!-- Bottom Toolbar Start -->
-                    <div class="row">
+                    <div class="row mb-2">
                         <div class="col-sm-12 col-custom">
                             <div class="toolbar-bottom">
                                 <div class="pagination">
