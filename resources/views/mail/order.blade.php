@@ -8,10 +8,6 @@
 </head>
 <body>
     <h2>Byla vytvořena další objednávka!</h2>
-    <p>text</p>
-
-    <!--
-    https://laravel.com/docs/9.x/mail#configuration
-    -->
+    <p>test</p>
 </body>
 </html>

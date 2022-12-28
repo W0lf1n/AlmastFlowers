@@ -38,12 +38,12 @@ class OrderMail extends Mailable
     /**
      * Get the message content definition.
      *
-     * @return \Illuminate\Mail\Mailables\Content
+     * @return Content
      */
     public function content()
     {
         return new Content(
-            view: 'mail.order',
+            "mail.order"
         );
     }
 
