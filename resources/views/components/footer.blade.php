@@ -75,7 +75,7 @@
                             </tr>
                             <tr>
                                 <th><b>Sobota</b></th>
-                                <th class="fw-normal">9:00 - 13:00</th>
+                                <th class="fw-normal">10:00 - 14:00</th>
                             </tr>
                             <tr>
                                 <th><b>Neděle</b></th>
