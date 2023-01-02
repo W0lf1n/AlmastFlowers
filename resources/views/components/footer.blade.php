@@ -49,41 +49,42 @@
             </div>
             <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-custom">
                 <div class="single-footer-widget">
-                    <h2 class="widget-title ms-1">Otevírací doba</h2>
-
-                    <table class="table table-borderless m-0 p-0 text-light">
-                        <tbody>
-                            <tr>
-                                <th><b>Pondělí</b></th>
-                                <th class="fw-normal">9:00 - 19:00</th>
-                            </tr>
-                            <tr>
-                                <th><b>Úterý</b></th>
-                                <th class="fw-normal">9:00 - 19:00</th>
-                            </tr>
-                            <tr>
-                                <th><b>Středa</b></th>
-                                <th class="fw-normal">9:00 - 19:00</th>
-                            </tr>
-                            <tr>
-                                <th><b>Čtvrtek</b></th>
-                                <th class="fw-normal">9:00 - 19:00</th>
-                            </tr>
-                            <tr>
-                                <th><b>Pátek</b></th>
-                                <th class="fw-normal">9:00 - 19:00</th>
-                            </tr>
-                            <tr>
-                                <th><b>Sobota</b></th>
-                                <th class="fw-normal">10:00 - 14:00</th>
-                            </tr>
-                            <tr>
-                                <th><b>Neděle</b></th>
-                                <th class="fw-normal">Zavřeno</th>
-                            </tr>
-                        </tbody>
-                    </table>
-
+                    <h2 class="widget-title">Otevírací doba</h2>
+                    <div class="row text-white justify-content-start mb-1">
+                        <div class="col-3"><b>Pondělí</b></div>
+                        <div class="col-6">9:00 - 19:00</div>
+                        <div class="col-3"></div>
+                    </div>
+                    <div class="row text-white justify-content-start mb-1">
+                        <div class="col-3"><b>Úterý</b></div>
+                        <div class="col-6">9:00 - 19:00</div>
+                        <div class="col-3"></div>
+                    </div>
+                    <div class="row text-white justify-content-start mb-1">
+                        <div class="col-3"><b>Středa</b></div>
+                        <div class="col-6">9:00 - 19:00</div>
+                        <div class="col-3"></div>
+                    </div>
+                    <div class="row text-white justify-content-start mb-1">
+                        <div class="col-3"><b>Čtvrtek</b></div>
+                        <div class="col-6">9:00 - 19:00</div>
+                        <div class="col-3"></div>
+                    </div>
+                    <div class="row text-white justify-content-start mb-1">
+                        <div class="col-3"><b>Pátek</b></div>
+                        <div class="col-6">9:00 - 19:00</div>
+                        <div class="col-3"></div>
+                    </div>
+                    <div class="row text-white justify-content-start mb-1">
+                        <div class="col-3"><b>Sobota</b></div>
+                        <div class="col-6">10:00 - 14:00</div>
+                        <div class="col-3"></div>
+                    </div>
+                    <div class="row text-white justify-content-start">
+                        <div class="col-3"><b>Neděle</b></div>
+                        <div class="col-6">Zavřeno</div>
+                        <div class="col-3"></div>
+                    </div>
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-custom">

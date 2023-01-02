@@ -641,6 +641,10 @@ mark {
   border-radius: 100%;
 }
 
+.widget-title{
+    margin-left: -4px;
+}
+
 .widget-list {
   margin-bottom: 30px;
 }
