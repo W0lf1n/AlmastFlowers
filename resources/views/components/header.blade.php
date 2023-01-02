@@ -34,6 +34,11 @@
                         </li>
                         <li>
                             <a>
+                                <span class="text-muted">objednávky</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a>
                                 <span class="text-muted">e-shop</span>
                             </a>
                         </li>
@@ -50,12 +55,12 @@
                     </p>
                     <ul class="nav mt-3">
                         <li class="account-menu-wrap d-none d-lg-flex">
-                            <a href="#" class="off-canvas-menu-btn">
+                            <a class="off-canvas-menu-btn">
                                 <i class="fa fa-bars"></i>
                             </a>
                         </li>
                         <li class="mobile-menu-btn d-lg-none">
-                            <a class="off-canvas-btn" href="#">
+                            <a class="off-canvas-btn">
                                 <i class="fa fa-bars"></i>
                             </a>
                         </li>
@@ -92,7 +97,10 @@
                             <a href="{{route('contact.index')}}">Kontakt</a>
                         </li>
                         <li>
-                            <a class="text-muted"> E-Shop</a>
+                            <a class="text-muted">Objednávky</a>
+                        </li>
+                        <li>
+                            <a class="text-muted">E-Shop</a>
                         </li>
                     </ul>
                 </nav>
@@ -133,13 +141,21 @@
             <!-- offcanvas widget area start -->
             <div class="offcanvas-widget-area">
                 <ul class="menu-top-menu">
-                    <li><a href="#">O webu</a></li>
+                    <li><a>O webu</a></li>
                 </ul>
                 <p class="desc-content">
-                    Ná stránkách se neunávně pracuje. Prosíme, mějte trpělivost a my Vám za oplátku přineseme funkce, které hledáte
+                    Na stránkách se neunávně pracuje. Prosíme, mějte trpělivost a my Vám za oplátku přineseme funkce, které hledáte
                     🌸
                 </p>
+                <p class="desc-content">
+                    Pokud máte nějaký technický problém se stránkou, obraťte se prosím na email
+                    <b>support@almastflowers.cz</b>
+                </p>
                 <div class="top-info-wrap text-left text-black">
+                    <h3 class="mb-3">
+                        <span style="color: grey;">Almast</span>
+                        <span class="fw-bold" style="color: deeppink;">Flowers</span>
+                    </h3>
                     <ul class="address-info">
                         <li>
                             <p>
@@ -150,7 +166,7 @@
                         <li>
                             <p>
                             <i class="fa fa-envelope"></i>
-                            almastflowers@gmail.com
+                            info@almastflowers.cz
                             </p>
                         </li>
                     </ul>

@@ -55,7 +55,7 @@
                         </div>
                         <div class="con-info-txt">
                             <h4>Napište nám</h4>
-                            <p>almastflowers@gmail.com</p>
+                            <p>info@almastflowers.cz</p>
                         </div>
                     </div>
                 </div>

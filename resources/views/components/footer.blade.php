@@ -35,15 +35,15 @@
                     <h2 class="widget-title">Prodejna</h2>
                     <ul class="widget-list">
                         <li>
-                            <address class="mb-0">
+                            <address class="mb-1">
                                 <i class="fa fa-home mb-2"></i>
                                 Bryksova 781/57
                                 <br />
                                 Praha 14-Černý Most, 198 00
                             </address>
                         </li>
-                        <li><i class="fa fa-phone"></i> +420 777 353 536</li>
-                        <li><i class="fa fa-envelope"></i> almastflowers@gmail.com</li>
+                        <li class="pb-3"><i class="fa fa-phone"></i> +420 777 353 536</li>
+                        <li class="pb-3"><i class="fa fa-envelope"></i> info@almastflowers.cz</li>
                     </ul>
                 </div>
             </div>
@@ -91,16 +91,16 @@
                     <h2 class="widget-title">Sídlo</h2>
                     <ul class="widget-list">
                         <li>
-                            <address class="mb-0">
+                            <address class="mb-1">
                                 <i class="fa fa-home mb-2"></i>
                                 Mansfeldova 789/1
                                 <br />
                                 Praha 14-Černý Most, 198 00
                             </address>
                         </li>
-                        <li><i class="fa fa-phone"></i> +420 777 930 077</li>
-                        <li><i class="fa fa-envelope"></i> edgar.poghosyan@seznam.cz</li>
-                        <li><i class="fa-regular fa-address-card"></i> IČO: 10967788</li>
+                        <li class="pb-3"><i class="fa fa-phone"></i> +420 777 930 077</li>
+                        <li class="pb-3"><i class="fa fa-envelope"></i> edgar.poghosyan@seznam.cz</li>
+                        <li class="pb-3"><i class="fa-regular fa-address-card"></i> IČO: 10967788</li>
                     </ul>
                 </div>
             </div>

@@ -645,6 +645,7 @@ mark {
   margin-bottom: 30px;
 }
 
+
 .widget-list form {
   padding-top: 10px;
 }
@@ -6018,7 +6019,11 @@ mark {
 }
 
 .slide-6 {
-  background-image: url("../img/slider/slidsder2.jpg");
+  background-image: url("../img/slider/slider6.jpg");
+    background-color: rgba(215, 177, 190, 0.9);
+}
+.slide-7 {
+    background-image: url("../img/slider/ssadider7.jpg");
     background-color: rgba(215, 177, 190, 0.9);
 }
 
