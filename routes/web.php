@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::redirect('/', '/uvod');
 
 Route::get('/uvod', [HomepageController::class, 'index'])->name('homepage.index');
 Route::get('/o-nas', [AboutUsController::class, 'index'])->name('about_us.index');

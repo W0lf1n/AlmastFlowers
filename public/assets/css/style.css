@@ -1362,10 +1362,10 @@ mark {
 }
 
 .pagination ul li.next {
-  width: 120px;
+  width: 125px;
 }
 .pagination ul li.previous {
-    width: 120px;
+    width: 130px;
 }
 
 /* ---Google Maps--- */
@@ -3483,7 +3483,7 @@ mark {
 }
 @media (max-width: 768px) {
     .d-block img{
-        height: 640px;
+        height: 450px;
         cursor: default;
     }
 }

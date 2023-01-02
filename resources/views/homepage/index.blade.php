@@ -47,14 +47,14 @@
                     <!--Single Banner Area Start-->
                     <div class="single-banner hover-style">
                         <div class="banner-img">
-                            <img src="{{asset('assets/img/homepage/img1.jpg')}}" style="object-fit: contain" height="450" alt="">
+                            <img src="{{asset('assets/img/homepage/img3.jpg')}}" style="object-fit: contain" height="450" alt="">
                             <div class="overlay-1"></div>
                         </div>
                     </div>
                     <!--Single Banner Area End-->
                 </div>
             </div>
-            <div class="row">
+            <div class="row mb-30">
                 <div class="col-md-6 col-custom order-2 order-md-1">
                     <!--Single Banner Area Start-->
                     <div class="single-banner hover-style">
@@ -100,7 +100,7 @@
                     <!--Single Banner Area End-->
                 </div>
             </div>
-            <div class="row">
+            <div class="row mb-30">
                 <div class="col-md-6 col-custom order-2 order-md-1">
                     <!--Single Banner Area Start-->
                     <div class="single-banner hover-style">

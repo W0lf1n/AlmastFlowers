@@ -116,7 +116,7 @@
                         </li>
                         <li>
                             <i class="fa fa-envelope"></i>
-                            <p>almastflowers@gmail.com</p>
+                            <p>info@almastflowers.cz</p>
                         </li>
                     </ul>
                     <div class="widget-social">

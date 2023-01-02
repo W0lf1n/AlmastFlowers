@@ -31,13 +31,13 @@
                         <div class="pagination">
                             <ul>
                                 @if($page > 1)
-                                    <li class="previous" ><a href="?page={{$page - 1}}">&lt;&lt; předchozí</a></li>
+                                    <li class="previous mb-1" ><a href="?page={{$page - 1}}">&lt;&lt; předchozí</a></li>
                                 @endif
                                 @for($pagination = 1; $pagination <= $total_images; $pagination++)
                                         <li><a href="?page={{$pagination}}">{{$pagination}}</a> </li>
                                     @endfor
                                 @if($page < $total_images)
-                                    <li class="next ms-2"><a href="?page={{$page + 1}}">další &gt;&gt;</a></li>
+                                    <li class="next"><a href="?page={{$page + 1}}">další &gt;&gt;</a></li>
                                 @endif
                             </ul>
                         </div>
@@ -70,13 +70,13 @@
                         <div class="pagination">
                             <ul>
                                 @if($page > 1)
-                                    <li class="previous" ><a href="?page={{$page - 1}}">&lt;&lt; předchozí</a></li>
+                                    <li class="previous mb-1" ><a href="?page={{$page - 1}}">&lt;&lt; předchozí</a></li>
                                 @endif
                                 @for($pagination = 1; $pagination <= $total_images; $pagination++)
                                     <li><a href="?page={{$pagination}}">{{$pagination}}</a> </li>
                                 @endfor
                                 @if($page < $total_images)
-                                    <li class="next ms-2"><a href="?page={{$page + 1}}">další &gt;&gt;</a></li>
+                                    <li class="next"><a href="?page={{$page + 1}}">další &gt;&gt;</a></li>
                                 @endif
                             </ul>
                         </div>
