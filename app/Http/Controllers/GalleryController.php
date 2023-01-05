@@ -32,8 +32,8 @@ class GalleryController extends Controller
             $file_name_list[] = $img->getFilename();
         }
         $page = request('page', 1);
-        $images = collect($file_name_list)->forPage($page, 8);
-        $total_images = ceil(count($file_name_list) / 8);
+        $images = collect($file_name_list)->forPage($page, 24);
+        $total_images = ceil(count($file_name_list) / 24);
         return \view('gallery.index', ['day' => $req[1], 'name' => $req[0], 'images' => $images, 'total_images' => $total_images, 'page' => $page]);
     }
 }

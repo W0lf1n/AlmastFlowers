@@ -3467,30 +3467,7 @@ mark {
 /*    Blog Scss
 /*----------------------------------------*/
 
-@media (min-width: 1201px) {
-    .d-block img{
-        height: 715px;
-        cursor: default;
-    }
-}
-@media (max-width: 1200px) {
-    .d-block img{
-        height: 565px;
-        cursor: default;
-    }
-}
-@media (max-width: 1024px) {
-    .d-block img{
-        height: 525px;
-        cursor: default;
-    }
-}
-@media (max-width: 768px) {
-    .d-block img{
-        height: 450px;
-        cursor: default;
-    }
-}
+
 
 .single-blog {
   -webkit-transition: all 0.3s ease-in-out;
@@ -5903,6 +5880,43 @@ mark {
     margin-top: 0;
   }
 }
+
+@media(min-width: 1200px) {
+    .block-image > a > img{
+        height: 361px;
+    }
+}
+
+@media(max-width: 1199px) {
+    .block-image > a > img{
+        height: 283px;
+    }
+}
+
+
+@media(max-width: 993px) {
+    .block-image > a > img{
+        height: 204px;
+    }
+}
+
+@media(max-width: 768px) {
+    .block-image > a > img{
+        height: 333px;
+        width: 246px;
+    }
+}
+@media(max-width: 575px) {
+    .block-image{
+        display: flex;
+        justify-content: center;;
+    }
+    .block-image > a > img{
+        height: 475px;
+        width: 351px;
+    }
+}
+
 
 /*-- Slider Background image --*/
 .bg-position {

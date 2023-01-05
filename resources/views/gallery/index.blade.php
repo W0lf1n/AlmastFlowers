@@ -49,16 +49,10 @@
                     <!-- Shop Wrapper Start -->
                     <div class="row">
                         @foreach($images as $img)
-                        <div class="col-12 col-md-6 col-custom mb-30">
-                            <div class="blog-lst">
-                                <div class="single-blog">
-                                    <div class="blog-image">
-                                        <a class="d-block">
-                                            <img src="{{asset("assets/img/gallery/$img")}}" alt="gallery image" class="w-100">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 mb-30 block-image"><!-- add responsive img from bootstrap -->
+                                <a>
+                                    <img src="{{asset("assets/img/gallery/$img")}}" alt="gallery image" height="auto" width="auto">
+                                </a>
                         </div>
                         @endforeach
                     </div>
