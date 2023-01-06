@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="cz">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -50,5 +50,6 @@
     <script src="{{asset('assets/plugins/nice-select.min.js')}}"></script>
     <script src="{{asset('assets/plugins/swiper-bundle.min.js')}}"></script>
     <script src="{{asset('assets/js/main.js')}}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.2/dist/index.bundle.min.js"></script>
 </body>
 </html>

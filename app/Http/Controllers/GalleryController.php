@@ -8,6 +8,7 @@ use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Cookie;
 
 class GalleryController extends Controller
 {
@@ -15,7 +16,9 @@ class GalleryController extends Controller
      * @return Application|View|Factory
      */
     public function index(): Application|View|Factory{
-        $req = $this->Svatek();
+        $serialized = Cookie::get('nameday_cookie');
+        $values = json_decode($serialized, true);
+
         $file_name_list = array();
         $images_name = File::files('assets/img/gallery');
 
@@ -34,6 +37,6 @@ class GalleryController extends Controller
         $page = request('page', 1);
         $images = collect($file_name_list)->forPage($page, 24);
         $total_images = ceil(count($file_name_list) / 24);
-        return \view('gallery.index', ['day' => $req[1], 'name' => $req[0], 'images' => $images, 'total_images' => $total_images, 'page' => $page]);
+        return \view('gallery.index', ['day' => $values[1], 'name' => $values[0], 'images' => $images, 'total_images' => $total_images, 'page' => $page]);
     }
 }

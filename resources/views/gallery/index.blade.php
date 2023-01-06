@@ -49,9 +49,9 @@
                     <!-- Shop Wrapper Start -->
                     <div class="row">
                         @foreach($images as $img)
-                        <div class="col-lg-3 col-md-3 col-sm-6 mb-30 block-image"><!-- add responsive img from bootstrap -->
-                                <a>
-                                    <img src="{{asset("assets/img/gallery/$img")}}" alt="gallery image" height="auto" width="auto">
+                        <div class="col-lg-3 col-md-3 col-sm-6 mb-30lando img-thumbnail"><!-- add responsive img from bootstrap -->
+                                <a href="{{asset("assets/img/gallery/$img")}}" data-toggle="lightbox" data-gallery="example-gallery">
+                                    <img class="img-fluid" src="{{asset("assets/img/gallery/$img")}}" alt="gallery image">
                                 </a>
                         </div>
                         @endforeach

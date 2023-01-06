@@ -25,7 +25,6 @@
                         </p><p>
                             My vám zvládneme zařídit oslavu či překvapení na klíč a vy nemusíte běhat po několika různých obchodech a ztrácet čas.
                         </p>
-                        <a href="{{route('order.send')}}">send order</a>
                     </div>
                 </div>
             </div>
@@ -146,8 +145,6 @@
                     <!--Single Banner Area End-->
                 </div>
             </div>
-
-
         </div>
     </div>
     <!-- Shop Collection End Here -->

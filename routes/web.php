@@ -18,13 +18,16 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::redirect('/', '/uvod');
 
-Route::get('/uvod', [HomepageController::class, 'index'])->name('homepage.index');
-Route::get('/o-nas', [AboutUsController::class, 'index'])->name('about_us.index');
-Route::get('/kontakt', [ContactController::class, 'index'])->name('contact.index');
-Route::get('/galerie', [GalleryController::class, 'index'])->name('gallery.index');
-Route::get('/objednavky', [OrdersController::class, 'index'])->name('orders.index');
+Route::middleware('create_nameday_cookie')->group(function (){
+    Route::redirect('/', '/uvod');
 
-Route::get('/sending', [SendMailController::class, 'send'])->name('order.send');
-Route::get('/order_mail', [SendMailController::class, 'index'])->name('mail.order');
+    Route::get('/uvod', [HomepageController::class, 'index'])->name('homepage.index');
+    Route::get('/o-nas', [AboutUsController::class, 'index'])->name('about_us.index');
+    Route::get('/kontakt', [ContactController::class, 'index'])->name('contact.index');
+    Route::get('/galerie', [GalleryController::class, 'index'])->name('gallery.index');
+    Route::get('/objednavky', [OrdersController::class, 'index'])->name('orders.index');
+
+    Route::get('/sending', [SendMailController::class, 'send'])->name('order.send');
+    Route::get('/order_mail', [SendMailController::class, 'index'])->name('mail.order');
+});
