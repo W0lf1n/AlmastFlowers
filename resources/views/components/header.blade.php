@@ -1,17 +1,17 @@
 <!-- Main Header Area Start -->
-<div class="main-header header-transparent header-sticky" style="max-height: 135px">
+<div class="main-header header-transparent header-sticky">
     <div class="container-fluid">
         <div class="row align-items-center">
             <div class="col-lg-2 col-xl-2 col-md-6 col-6 col-custom">
                 <div class="header-logo d-flex align-items-center">
                     <a href="{{route('homepage.index')}}">
-                        <img src="{{asset('assets/img/icon/icon1.png')}}" class="mb-5" alt="logo"/>
+                        <img src="{{asset('assets/img/icon/icon1.webp')}}" alt="logo"/>
                     </a>
                 </div>
             </div>
             <div class="col-lg-8 d-none d-lg-flex justify-content-center col-custom">
-                <nav class="main-nav d-none d-lg-flex">
-                    <ul class="nav mb-5">
+                <nav class="main-nav d-none d-lg-flex mb-5">
+                    <ul class="nav">
                         <li>
                             <a href="{{route('homepage.index')}}">
                                 <span class="menu-text">Úvod</span>
@@ -47,15 +47,15 @@
             </div>
             <div class="col-lg-2 col-md-6 col-6 col-custom">
                 <div class="header-right-area main-nav mb-5">
-                    <p class="text-end">
+                    <p class="text-start">
                         {{$day}}
                         <br />
                         Svátek má
-                        <b style="color: #e72463">{{$name}}</b>
+                        <b style="color: #C40041">{{$name}}</b>
                     </p>
                     <ul class="nav mt-3">
                         <li class="account-menu-wrap d-none d-lg-flex">
-                            <a class="off-canvas-menu-btn">
+                            <a class="off-canvas-menu-btn mb-5">
                                 <i class="fa fa-bars"></i>
                             </a>
                         </li>
@@ -72,7 +72,7 @@
 </div>
 <!-- Main Header Area End -->
 <!-- off-canvas menu start -->
-<aside class="off-canvas-wrapper" id="mobileMenu">
+<div class="off-canvas-wrapper" id="mobileMenu">
     <div class="off-canvas-overlay"></div>
     <div class="off-canvas-inner-content">
         <div class="btn-close-off-canvas">
@@ -128,10 +128,10 @@
             </div>
         </div>
     </div>
-</aside>
+</div>
 <!-- off-canvas menu end -->
 <!-- off-canvas menu start -->
-<aside class="off-canvas-menu-wrapper" id="sideMenu">
+<div class="off-canvas-menu-wrapper" id="sideMenu">
     <div class="off-canvas-overlay"></div>
     <div class="off-canvas-inner-content">
         <div class="off-canvas-inner">
@@ -180,5 +180,5 @@
             <!-- offcanvas widget area end -->
         </div>
     </div>
-</aside>
+</div>
 <!-- off-canvas menu end -->

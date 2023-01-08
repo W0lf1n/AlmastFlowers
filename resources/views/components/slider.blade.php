@@ -5,7 +5,7 @@
                 <!-- Intro Content Start -->
                 <div class="intro11-content-2 text-center">
                     <h1 class="different-title">Vítejte</h1>
-                    <h2 class="title">květiny | balónky | dekorace</h2>
+                    <h2 class="title">v Almast Flowers</h2>
                 </div>
                 <!-- Intro Content End -->
             </div>

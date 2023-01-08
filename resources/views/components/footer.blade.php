@@ -5,7 +5,7 @@
                 <div class="single-footer-widget m-0">
                     <div class="footer-logo">
                         <h1>
-                            <span style="color: grey;">Almast</span>
+                            <span style="color: grey;">Almast</span> <br />
                             <span style="color: deeppink;">Flowers</span>
                         </h1>
                     </div>

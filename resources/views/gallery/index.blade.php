@@ -30,12 +30,17 @@
                     <div class="toolbar-bottom">
                         <div class="pagination">
                             <ul>
+                                <?php $current_page = request()->query('page'); ?>
                                 @if($page > 1)
                                     <li class="previous mb-1" ><a href="?page={{$page - 1}}">&lt;&lt; předchozí</a></li>
                                 @endif
                                 @for($pagination = 1; $pagination <= $total_images; $pagination++)
+                                    @if ($current_page == $pagination)
+                                        <li><a style="background-color: #E72463; color: white" href="?page={{$pagination}}"><b>{{$pagination}}</b></a> </li>
+                                    @else
                                         <li><a href="?page={{$pagination}}">{{$pagination}}</a> </li>
-                                    @endfor
+                                    @endif
+                                @endfor
                                 @if($page < $total_images)
                                     <li class="next"><a href="?page={{$page + 1}}">další &gt;&gt;</a></li>
                                 @endif
@@ -47,15 +52,27 @@
             </div>
             <!-- Top Toolbar End -->
                     <!-- Shop Wrapper Start -->
-                    <div class="row">
-                        @foreach($images as $img)
-                        <div class="col-lg-3 col-md-3 col-sm-6 mb-30lando img-thumbnail"><!-- add responsive img from bootstrap -->
-                                <a href="{{asset("assets/img/gallery/$img")}}" data-toggle="lightbox" data-gallery="example-gallery">
-                                    <img class="img-fluid" src="{{asset("assets/img/gallery/$img")}}" alt="gallery image">
-                                </a>
+                <div class="row">
+                    @foreach(range(1, count($file_images)/5) as $i)
+                            <?php $path = public_path("assets/img/gallery/img-$i.webp"); $img_width = getimagesize($path); ?>
+                        <div class="col-lg-2 col-md-2 col-sm-3 mb-3">
+                            <a href="{{asset("assets/img/gallery/img-$i.webp")}}" data-toggle="lightbox" data-gallery="example-gallery">
+
+                                <img class="w-100 img-fluid rounded-2" src="{{ asset("assets/img/gallery/img-$i.1.webp") }}"
+
+                                     alt="Ukázka naší práce z galerijních fotek."
+
+                                     srcset="{{ asset("assets/img/gallery/img-$i.2.webp") }} 540w,
+                                     {{ asset("assets/img/gallery/img-$i.3.webp") }} 850w,
+                                     {{ asset("assets/img/gallery/img-$i.4.webp") }} 1070w,
+                                     {{ asset("assets/img/gallery/img-$i.webp") }} {{$img_width[0]}}w"
+
+                                     sizes="(min-width: 1220px) 175px, (min-width: 1000px) 134px, (min-width: 780px) 94px, (min-width: 580px) 109px, calc(100vw - 24px)"
+                                >
+                            </a>
                         </div>
-                        @endforeach
-                    </div>
+                    @endforeach
+                </div>
                     <!-- Shop Wrapper End -->
             <!-- Bottom Toolbar Start -->
             <div class="row mb-2">
@@ -66,9 +83,13 @@
                                 @if($page > 1)
                                     <li class="previous mb-1" ><a href="?page={{$page - 1}}">&lt;&lt; předchozí</a></li>
                                 @endif
-                                @for($pagination = 1; $pagination <= $total_images; $pagination++)
-                                    <li><a href="?page={{$pagination}}">{{$pagination}}</a> </li>
-                                @endfor
+                                    @for($pagination = 1; $pagination <= $total_images; $pagination++)
+                                        @if ($current_page == $pagination)
+                                            <li><a style="background-color: #E72463; color: white" href="?page={{$pagination}}"><b>{{$pagination}}</b></a> </li>
+                                        @else
+                                            <li><a href="?page={{$pagination}}">{{$pagination}}</a> </li>
+                                        @endif
+                                    @endfor
                                 @if($page < $total_images)
                                     <li class="next"><a href="?page={{$page + 1}}">další &gt;&gt;</a></li>
                                 @endif

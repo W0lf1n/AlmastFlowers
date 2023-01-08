@@ -17,7 +17,7 @@
     <div class="shop-collection-area gray-bg pt-no-text pb-no-text">
             <div class="container-fluid mb-5">
                 <div class="row">
-                    <div class="col-lg-8 ms-auto me-auto text-center" style="font-size: large">
+                    <div class="col-lg-8 ms-auto me-auto text-center">
                         <p>
                             Spěcháte na narozeniny? Zapomněli jste ženě koupit něco k výročí? Nebo chcete udělat radost sami sobě?
                         </p><p>

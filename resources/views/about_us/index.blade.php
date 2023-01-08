@@ -30,7 +30,7 @@
                     <div class="col-12 col-custom">
                         <div class="section-title text-center mb-30">
                             <span class="section-title-1">kousek našeho příběhu</span>
-                            <h2 class="section-title-large display-6" style="font-family: 'Roboto', sans-serif;">Proč název Almast<span style="color: #eb4a7e">Flowers</span>?</h2>
+                            <h2 class="section-title-large display-6">Proč název Almast<span style="color: #eb4a7e">Flowers</span>?</h2>
                         </div>
                     </div>
                     <!--Section Title End-->
