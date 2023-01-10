@@ -457,8 +457,8 @@ mark {
 /* --- Section title ---*/
 .section-title .section-title-1 {
   color: #E72463;
-  font-size: 27px;
-  font-weight: 600;
+  font-size: 30px;
+  font-weight: 500;
   line-height: 34px;
   display: inline-block;
   letter-spacing: 3px;
@@ -469,7 +469,7 @@ mark {
 
 @media (max-width: 479px) {
   .section-title .section-title-1 {
-    font-size: 18px;
+    font-size: 28px;
     line-height: 22px;
   }
 }
@@ -7023,6 +7023,7 @@ nav > .mobile-menu > ul > li > a{
   -webkit-transition-duration: 700ms;
        -o-transition-duration: 700ms;
           transition-duration: 700ms;
+    object-fit: contain;
 }
 
 .banner-img img > a:before {

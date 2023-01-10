@@ -1,15 +1,15 @@
-<div class="footer-widget-area">
+<section class="footer-widget-area">
     <div class="container container-default custom-area">
         <div class="row">
             <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-custom">
                 <div class="single-footer-widget m-0">
-                    <div class="footer-logo">
+                    <section class="footer-logo">
                         <h1>
                             <span style="color: grey;">Almast</span> <br />
                             <span style="color: deeppink;">Flowers</span>
                         </h1>
-                    </div>
-                    <div class="social-links">
+                    </section>
+                    <section class="social-links">
                         <ul class="d-flex">
                             <li>
                                 <a class="rounded-circle" href="https://www.facebook.com/profile.php?id=100085530743756" target="_blank" title="Facebook">
@@ -27,11 +27,11 @@
                                 </a>
                             </li>
                         </ul>
-                    </div>
+                    </section>
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-custom">
-                <div class="single-footer-widget">
+                <section class="single-footer-widget">
                     <h2 class="widget-title">Prodejna</h2>
                     <ul class="widget-list">
                         <li>
@@ -42,53 +42,63 @@
                                 Praha 14-Černý Most, 198 00
                             </address>
                         </li>
-                        <li class="pb-3"><i class="fa fa-phone"></i> +420 777 353 536</li>
-                        <li class="pb-3"><i class="fa fa-envelope"></i> info@almastflowers.cz</li>
+                        <li class="pb-3">
+                            <a href="tel:+420777353536">
+                                <i class="fa fa-phone"></i>
+                                +420 777 353 536
+                            </a>
+                        </li>
+                        <li class="pb-3">
+                            <a href="mailto:info@almastflowers.cz">
+                                <i class="fa fa-envelope"></i>
+                                info@almastflowers.cz
+                            </a>
+                        </li>
                     </ul>
-                </div>
+                </section>
             </div>
             <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-custom">
-                <div class="single-footer-widget">
+                <section class="single-footer-widget">
                     <h2 class="widget-title">Otevírací doba</h2>
-                    <div class="row text-white justify-content-start mb-1">
+                    <time class="row text-white justify-content-start mb-1">
                         <div class="col-3"><b>Pondělí</b></div>
                         <div class="col-6">9:00 - 19:00</div>
                         <div class="col-3"></div>
-                    </div>
-                    <div class="row text-white justify-content-start mb-1">
+                    </time>
+                    <time class="row text-white justify-content-start mb-1">
                         <div class="col-3"><b>Úterý</b></div>
                         <div class="col-6">9:00 - 19:00</div>
                         <div class="col-3"></div>
-                    </div>
-                    <div class="row text-white justify-content-start mb-1">
+                    </time>
+                    <time class="row text-white justify-content-start mb-1">
                         <div class="col-3"><b>Středa</b></div>
                         <div class="col-6">9:00 - 19:00</div>
                         <div class="col-3"></div>
-                    </div>
-                    <div class="row text-white justify-content-start mb-1">
+                    </time>
+                    <time class="row text-white justify-content-start mb-1">
                         <div class="col-3"><b>Čtvrtek</b></div>
                         <div class="col-6">9:00 - 19:00</div>
                         <div class="col-3"></div>
-                    </div>
-                    <div class="row text-white justify-content-start mb-1">
+                    </time>
+                    <time class="row text-white justify-content-start mb-1">
                         <div class="col-3"><b>Pátek</b></div>
                         <div class="col-6">9:00 - 19:00</div>
                         <div class="col-3"></div>
-                    </div>
-                    <div class="row text-white justify-content-start mb-1">
+                    </time>
+                    <time class="row text-white justify-content-start mb-1">
                         <div class="col-3"><b>Sobota</b></div>
                         <div class="col-6">10:00 - 14:00</div>
                         <div class="col-3"></div>
-                    </div>
-                    <div class="row text-white justify-content-start">
+                    </time>
+                    <time class="row text-white justify-content-start">
                         <div class="col-3"><b>Neděle</b></div>
                         <div class="col-6">Zavřeno</div>
                         <div class="col-3"></div>
-                    </div>
-                </div>
+                    </time>
+                </section>
             </div>
             <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-custom">
-                <div class="single-footer-widget">
+                <section class="single-footer-widget">
                     <h2 class="widget-title">Sídlo</h2>
                     <ul class="widget-list">
                         <li>
@@ -99,22 +109,32 @@
                                 Praha 14-Černý Most, 198 00
                             </address>
                         </li>
-                        <li class="pb-3"><i class="fa fa-phone"></i> +420 777 930 077</li>
-                        <li class="pb-3"><i class="fa fa-envelope"></i> edgar.poghosyan@seznam.cz</li>
+                        <li class="pb-3">
+                            <a href="tel:+420777930077">
+                                <i class="fa fa-phone"></i>
+                                 +420 777 930 077
+                            </a>
+                        </li>
+                        <li class="pb-3">
+                            <a href="mailto:edgar.poghosyan@seznam.cz">
+                                <i class="fa fa-envelope"></i>
+                                 edgar.poghosyan@seznam.cz
+                            </a>
+                        </li>
                         <li class="pb-3"><i class="fa-regular fa-address-card"></i> IČO: 10967788</li>
                     </ul>
-                </div>
+                </section>
             </div>
         </div>
     </div>
-</div>
+</section>
 <div class="footer-copyright-area">
     <div class="container custom-area">
         <div class="row">
             <div class="col-12 text-center col-custom">
-                <div class="copyright-content">
+                <section class="copyright-content">
                     <p>Copyright © <span id="year"></span> <a href="https://www.almastflowers.cz/" title="https://www.almastflowers.cz/">AlmastFlowers</a></p>
-                </div>
+                </section>
             </div>
         </div>
     </div>

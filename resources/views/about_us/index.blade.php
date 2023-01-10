@@ -23,24 +23,24 @@
 
     <!-- History Area Start Here -->
     <div class="our-history-area gray-bg pt-5 mt-text-3">
-        <div class="our-history-area">
+        <section class="our-history-area">
             <div class="container custom-area">
                 <div class="row">
                     <!--Section Title Start-->
                     <div class="col-12 col-custom">
                         <div class="section-title text-center mb-30">
                             <span class="section-title-1">kousek našeho příběhu</span>
-                            <h2 class="section-title-large display-6">Proč název Almast<span style="color: #eb4a7e">Flowers</span>?</h2>
+                            <h3 class="section-title-large display-6">Proč název Almast<span style="color: #eb4a7e">Flowers</span>?</h3>
                         </div>
                     </div>
                     <!--Section Title End-->
                 </div>
                 <div class="row">
                     <div class="col-lg-8 ms-auto me-auto">
-                        <div class="history-area-content text-center border-0">
+                        <article class="history-area-content text-center border-0">
                             <p>Slovo <b>Almast</b> není jen tak nějaký výmysl! Pochází z Arménštiny, a vyjma toho, že je to název vzácného kamene, je to také křestní jméno babičky, která pracovala s květinami celý svůj život a stala se tak inspirací pro naše pokračování v práci s květinami. My jsme se ovšem rozhodli koncept klasického květinářství lehce oživit…
                             </p>
-                        </div>
+                        </article>
                     </div>
                 </div>
             </div>

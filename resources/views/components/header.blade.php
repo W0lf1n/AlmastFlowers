@@ -1,13 +1,13 @@
 <!-- Main Header Area Start -->
-<div class="main-header header-transparent header-sticky">
+<section class="main-header header-transparent header-sticky">
     <div class="container-fluid">
         <div class="row align-items-center">
             <div class="col-lg-2 col-xl-2 col-md-6 col-6 col-custom">
-                <div class="header-logo d-flex align-items-center">
+                <figure class="header-logo d-flex align-items-center">
                     <a href="{{route('homepage.index')}}">
                         <img src="{{asset('assets/img/icon/icon1.webp')}}" alt="logo"/>
                     </a>
-                </div>
+                </figure>
             </div>
             <div class="col-lg-8 d-none d-lg-flex justify-content-center col-custom">
                 <nav class="main-nav d-none d-lg-flex mb-5">
@@ -46,13 +46,13 @@
                 </nav>
             </div>
             <div class="col-lg-2 col-md-6 col-6 col-custom">
-                <div class="header-right-area main-nav mb-5">
-                    <p class="text-start">
+                <section class="header-right-area main-nav mb-5">
+                    <time class="text-start">
                         {{$day}}
                         <br />
                         Svátek má
                         <b style="color: #C40041">{{$name}}</b>
-                    </p>
+                    </time>
                     <ul class="nav mt-3">
                         <li class="account-menu-wrap d-none d-lg-flex">
                             <a class="off-canvas-menu-btn mb-5">
@@ -65,14 +65,14 @@
                             </a>
                         </li>
                     </ul>
-                </div>
+                </section>
             </div>
         </div>
     </div>
-</div>
+</section>
 <!-- Main Header Area End -->
 <!-- off-canvas menu start -->
-<div class="off-canvas-wrapper" id="mobileMenu">
+<section class="off-canvas-wrapper" id="mobileMenu">
     <div class="off-canvas-overlay"></div>
     <div class="off-canvas-inner-content">
         <div class="btn-close-off-canvas">
@@ -112,26 +112,30 @@
                     <ul class="address-info">
                         <li>
                             <i class="fa fa-phone"></i>
-                            <p>+420 777 353 536</p>
+                            <p>
+                                <a href="tel:+420777353536">+420 777 353 536</a>
+                            </p>
                         </li>
                         <li>
                             <i class="fa fa-envelope"></i>
-                            <p>info@almastflowers.cz</p>
+                            <p>
+                                <a href="mailto:info@almastflowers.cz">info@almastflowers.cz</a>
+                            </p>
                         </li>
                     </ul>
-                    <div class="widget-social">
+                    <section class="widget-social">
                         <a title="Facebook" href="https://www.facebook.com/profile.php?id=100085530743756" target="_blank"><i class="fa fa-facebook-f"></i></a>
                         <a title="Twitter" href="https://www.instagram.com/almastflowers/" target="_blank"><i class="fa fa-instagram"></i></a>
                         <a title="Linkedin" href="https://www.tiktok.com/@almastflowers" target="_blank"><i class="fab fa-tiktok"></i></a>
-                    </div>
+                    </section>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</section>
 <!-- off-canvas menu end -->
 <!-- off-canvas menu start -->
-<div class="off-canvas-menu-wrapper" id="sideMenu">
+<section class="off-canvas-menu-wrapper" id="sideMenu">
     <div class="off-canvas-overlay"></div>
     <div class="off-canvas-inner-content">
         <div class="off-canvas-inner">
@@ -139,7 +143,7 @@
                 <i class="fa fa-times"></i>
             </div>
             <!-- offcanvas widget area start -->
-            <div class="offcanvas-widget-area">
+            <article class="offcanvas-widget-area">
                 <ul class="menu-top-menu">
                     <li><a>O webu</a></li>
                 </ul>
@@ -149,7 +153,9 @@
                 </p>
                 <p class="desc-content">
                     Pokud máte nějaký technický problém se stránkou, obraťte se prosím na email
-                    <b>support@almastflowers.cz</b>
+                    <b>
+                        <a href="mailto:support@almastflowers.cz">support@almastflowers.cz</a>
+                    </b>
                 </p>
                 <div class="top-info-wrap text-left text-black">
                     <h3 class="mb-3">
@@ -160,25 +166,29 @@
                         <li>
                             <p>
                             <i class="fa fa-phone"></i>
-                            +420 777 353 536
+                                <a href="tel:+420777353536">
+                                    +420 777 353 536
+                                </a>
                             </p>
                         </li>
                         <li>
                             <p>
                             <i class="fa fa-envelope"></i>
-                            info@almastflowers.cz
+                                <a href="mailto:info@almastflowers.cz">
+                                    info@almastflowers.cz
+                                </a>
                             </p>
                         </li>
                     </ul>
-                    <div class="widget-social">
+                    <section class="widget-social">
                         <a title="Facebook" href="https://www.facebook.com/profile.php?id=100085530743756" target="_blank"><i class="fa fa-facebook-f"></i></a>
                         <a title="Twitter" href="https://www.instagram.com/almastflowers/" target="_blank"><i class="fa fa-instagram"></i></a>
                         <a title="Linkedin" href="https://www.tiktok.com/@almastflowers" target="_blank"><i class="fab fa-tiktok"></i></a>
-                    </div>
+                    </section>
                 </div>
-            </div>
+            </article>
             <!-- offcanvas widget area end -->
         </div>
     </div>
-</div>
+</section>
 <!-- off-canvas menu end -->

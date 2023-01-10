@@ -58,7 +58,7 @@
                         <div class="col-lg-2 col-md-2 col-sm-3 mb-3">
                             <a href="{{asset("assets/img/gallery/img-$i.webp")}}" data-toggle="lightbox" data-gallery="example-gallery">
 
-                                <img class="w-100 img-fluid rounded-2" src="{{ asset("assets/img/gallery/img-$i.1.webp") }}"
+                                <img class="w-100 image_resizer rounded-2" src="{{ asset("assets/img/gallery/img-$i.1.webp") }}"
 
                                      alt="Ukázka naší práce z galerijních fotek."
 
